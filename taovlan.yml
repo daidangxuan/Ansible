@@ -1,6 +1,6 @@
 ---
 - name: demo
-  hosts: SW5
+  hosts: SW12
 
   tasks:
     - name: Create vlan
