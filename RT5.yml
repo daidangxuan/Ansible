@@ -1,6 +1,6 @@
 ---
 - name: dat IP cho loopback
-  host: all
+  host: RT5
   task:
     - name: Set loopback IPv4 address
       ios_13_interface:
