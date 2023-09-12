@@ -9,7 +9,7 @@
         vlan_id: "{{item.number}}"
         name: "{{item.name}}"
         state: present
-      witt_items:
+      with_items:
         - { number: "33", name: "phong_nhan_su"}
         - { number: "34", name: "phong_ke_toan"}
     - name: Show vlan
