@@ -7,7 +7,7 @@
     - name: Create vlan
       ios_vlan:
         vlan_id: "{{item.number}}"
-        name: {{item.name}}
+        name: "{{item.name}}"
         state: present
       witt_items:
         - { number: "33", name: "phong_nhan_su"}
