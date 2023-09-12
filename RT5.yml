@@ -1,6 +1,6 @@
 ---
 - name: dat IP cho loopback
-  host: RT5
+  host: RT5 #nếu dùng group thì thay bằng tên Group trong ansible
   task:
     - name: Set loopback IPv4 address
       ios_13_interface:
