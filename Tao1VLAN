@@ -1,0 +1,11 @@
+---
+- name: demo
+  hosts: SW12
+  #gather_fact: no
+
+  tasks:
+    - name: Create vlan
+      ios_vlan:
+        vlan_id: 200
+        name: VLAN200
+        state: present
