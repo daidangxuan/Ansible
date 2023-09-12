@@ -1,7 +1,7 @@
 ---
 - name: demo
   hosts: SW12
-  gather_fact: no
+  #gather_fact: no
 
   tasks:
     - name: Create vlan
