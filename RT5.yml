@@ -1,0 +1,4 @@
+---
+- name: dat IP cho loopback
+  host: all
+  task
